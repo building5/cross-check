@@ -6,10 +6,28 @@
   "bin": {
     "cross-check": "./bin/cross-check.js"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "appdirs": "^1.1.0",
+    "async-throttle": "^1.0.0",
+    "bunyan": "^1.8.5",
+    "bunyan-format": "^0.2.1",
+    "commander": "^2.9.0",
+    "fs-extra": "^1.0.0",
+    "js-yaml": "^3.7.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "nodegit": "^0.16.0",
+    "npm": "^3.10.10",
+    "nsp": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "power-assert": "^1.4.2"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -20,7 +38,8 @@
     "microservices",
     "cross-project"
   ],
-  "author": "",
+  "engines": "^6.9.0",
+  "author": "David M. Lee, II <leedm777@yahoo.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/building5/cross-check/issues"
