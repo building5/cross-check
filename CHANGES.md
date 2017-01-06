@@ -1,5 +1,9 @@
 # cross-check changelog
 
+## v0.1.3 (2017-01-06)
+
+ * I am a careless idiot.
+
 ## v0.1.2 (2017-01-06)
 
  * Added error reporting for excpetions during nsp and npm outdated tests
