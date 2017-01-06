@@ -1,6 +1,6 @@
 {
   "name": "cross-check",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Multi-project, project level linting",
   "main": "index.js",
   "bin": {
@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/building5/cross-check.git"
   },
-  "keywords": ["lint", "microservices", "cross-project"],
+  "keywords": [
+    "lint",
+    "microservices",
+    "cross-project"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
