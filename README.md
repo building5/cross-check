@@ -36,3 +36,4 @@ Planned work:
  * Other
    * Switch many command line options to a configuration file
    * A plaintext reporter for human readable output
+   * Catch exceptions from scanners and report them as errors
