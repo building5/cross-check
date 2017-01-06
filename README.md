@@ -31,6 +31,7 @@ Planned work:
  * Node
    * Assert consistency of `private` and `license` fields in `package.json`
    * Assert repository consistent with cloned URL
+   * Assert no deprecated dependencies
  * Other
    * Switch many command line options to a configuration file
-   * A plaintext reporter for running manually
+   * A plaintext reporter for human readable output
