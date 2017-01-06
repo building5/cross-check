@@ -1,5 +1,10 @@
 # cross-check changelog
 
+## v0.1.2 (2017-01-06)
+
+ * Added error reporting for excpetions during nsp and npm outdated tests
+ * Collapsed npm outdated results into single tests
+
 ## v0.1.1 (2017-01-06)
 
  * Fix failure output
