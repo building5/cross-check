@@ -28,6 +28,7 @@ Planned work:
    * Assert a particular file's contents (`.node-version`, for example)
  * Docker
    * Assert `FROM` version matches a regex/semver
+   * Assert `MAINTAINER` present, or matches value
  * Node
    * Assert consistency of `private` and `license` fields in `package.json`
    * Assert repository consistent with cloned URL
